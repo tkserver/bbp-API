@@ -76,7 +76,7 @@ function bbp_api_replytoreply_post( $data ) {
 		array(
 			'forum_id'     => $forum_id,
 			'topic_id'     => $topic_id,
-			'reply_id'     => $reply_id,
+			'reply_to'     => $reply_id,
 		)
 	);
 	
